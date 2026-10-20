@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>柴油系统与油嘴标定技术专家助手</title>
+    <title>柴油系统与油嘴标定技术专家顾问</title>
     <!-- 引入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -28,21 +28,25 @@
         </div>
     </header>
 
-    <!-- 主体聊天区域容器 -->
-    <main class="flex-1 max-w-4xl w-full mx-auto p-4 flex flex-col">
-        <!-- 欢迎提示横幅 -->
-        <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 mb-4 text-sm text-slate-300">
-            <p class="font-medium text-slate-200 mb-1">💡 欢迎来到专家技术咨询台：</p>
-            <p>本系统基于经验构建。您可以询问关于<strong>油嘴参数推荐、结焦机理、肩胛开裂排查</strong>等工程问题。</p>
-        </div>
-
-        <!-- Dify 聊天框网页嵌入 (Iframe) -->
-        <div class="flex-1 bg-slate-900/40 border border-slate-800 rounded-2xl overflow-hidden min-h-[700px] flex flex-col shadow-2xl">
-            <iframe
-             src="https://udify.app/chatbot/SopuXc5qk7jooSyx"
-             style="width: 100%; height: 100%; min-height: 700px; border: none;"
-             allow="microphone;clipboard-write">
-            </iframe>
+    <!-- 主体内容区域 -->
+    <main class="flex-1 max-w-4xl w-full mx-auto p-4 flex flex-col justify-center items-center text-center">
+        <!-- 欢迎提示卡片 -->
+        <div class="bg-slate-800/80 border border-slate-700 rounded-2xl p-8 max-w-2xl shadow-2xl">
+            <div class="text-4xl mb-4">🛠️</div>
+            <h2 class="text-xl font-bold text-slate-100 mb-2">欢迎来到专家技术咨询台</h2>
+            <p class="text-sm text-slate-300 mb-6 leading-relaxed">
+                本系统基于经验构建。您可以询问关于<strong>油嘴参数推荐、结焦机理、肩胛开裂排查、喷射贯穿距离</strong>等工程问题。
+            </p>
+            
+            <!-- 启动按钮：直接安全跳转至云端隔离加密聊天室 -->
+            <a href="https://udify.app/chatbot/SopuXc5qk7jooSyx" target="_blank" 
+               class="inline-block bg-emerald-600 hover:bg-emerald-500 text-white font-medium px-8 py-3.5 rounded-xl shadow-lg transition duration-200 text-base">
+                💬 启动专属专家对话舱 →
+            </a>
+            
+            <p class="text-xs text-slate-400 mt-6">
+                💡 提示：点击后将在独立的安全加密窗口中打开，确保您的私密数据与查询完全隔离。
+            </p>
         </div>
     </main>
 
