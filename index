@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>柴油系统与油嘴标定技术专家顾问</title>
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+    <!-- 顶部导航栏 -->
+    <header class="bg-slate-900 border-b border-slate-800 py-4 px-6 shadow-md">
+        <div class="max-w-4xl mx-auto flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="text-2xl">⛽</span>
+                <h1 class="text-lg font-bold tracking-wide">LU 柴油发动机与高压共轨油嘴专家系统</h1>
+            </div>
+            <span class="text-xs bg-emerald-900/60 text-emerald-400 border border-emerald-700/50 px-2.5 py-1 rounded-full">
+                🔒 安全加密隔离区
+            </span>
+        </div>
+    </header>
+
+    <!-- 主体聊天区域容器 -->
+    <main class="flex-1 max-w-4xl w-full mx-auto p-4 flex flex-col">
+        <!-- 欢迎提示横幅 -->
+        <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 mb-4 text-sm text-slate-300">
+            <p class="font-medium text-slate-200 mb-1">💡 欢迎来到专家技术咨询台：</p>
+            <p>本系统基于多年台架测试与设计经验构建。您可以询问关于<strong>油嘴结焦机理、肩胛开裂排查、预喷策略、多段喷射、空燃比优化</strong>等硬核工程问题。</p>
+        </div>
+
+        <!-- Dify 聊天框网页嵌入 (Iframe) -->
+        <div class="flex-1 bg-slate-900/40 border border-slate-800 rounded-2xl overflow-hidden min-h-[700px] flex flex-col shadow-2xl">
+            <iframe
+             src="https://udify.app/chatbot/SopuXc5qk7jooSyx"
+             style="width: 100%; height: 100%; min-height: 700px; border: none;"
+             allow="microphone;clipboard-write">
+            </iframe>
+        </div>
+    </main>
+
+    <!-- 底部版权栏 -->
+    <footer class="bg-slate-900 border-t border-slate-800 py-3 text-center text-xs text-slate-500">
+        <p>© 2026 柴油机标定与油嘴项目组 | 仅用于工程技术交流与辅助排查</p>
+    </footer>
+
+</body>
+</html>
